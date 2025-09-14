@@ -1,0 +1,109 @@
+/* Buttons */
+.button-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-md) var(--spacing-lg);
+  gap: var(--spacing-xs);
+  background: var(--primary-green);
+  color: var(--black);
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: var(--button-radius);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-primary:hover {
+  background: var(--button-primary-hover);
+}
+
+.button-secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-md) var(--spacing-lg);
+  gap: var(--spacing-xs);
+  background: var(--white);
+  color: var(--primary-text);
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: var(--button-radius);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-secondary:hover {
+  background: var(--off-white);
+}
+
+.button-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  gap: var(--spacing-xs);
+  background: var(--nav-bg);
+  border-radius: var(--button-radius);
+  border: none;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: var(--font-button);
+  color: var(--nav-text);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-nav:hover {
+  background: var(--primary-text);
+}
+
+/* Cards */
+.card {
+  background: var(--white);
+  border-radius: var(--button-radius);
+  box-shadow: 0 2px 8px var(--card-shadow);
+  padding: calc(var(--spacing-md) * 2);
+  margin-bottom: var(--spacing-md);
+}
+
+.event-card {
+  background: var(--white);
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 8px var(--card-shadow);
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.next-event-card {
+  background: var(--green-light);
+  border-radius: var(--card-radius);
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  gap: 24px;
+}
+
+/* Play Button */
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: var(--white);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

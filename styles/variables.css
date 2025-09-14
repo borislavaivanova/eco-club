@@ -1,0 +1,59 @@
+:root {
+  /* Color Palette */
+  --primary-green: #27ae60;
+  --green-light: #d4f5e9;
+  --green-tertiary: #b7e4c7;
+  --black: #0B0706;
+  --primary-text: #494d5c;
+  --secondary-text: #525560;
+  --off-white: #EBF0F9;
+  --border: #E5E5E5;
+  --white: #FFFFFF;
+  --dark-scale-400: #111218;
+  --nav-bg: #1D2130;
+  --nav-text: #FFFFFF;
+  
+  /* Additional Colors */
+  --button-primary: #00C717;
+  --button-primary-hover: #009e13;
+  --background-light: #FEFDFC;
+  --card-shadow: rgba(0,0,0,0.08);
+  --border-dark: rgba(0,0,0,0.4);
+  --hero-overlay: rgba(0,0,0,0.45);
+  --cta-overlay: rgba(0,0,0,0.5);
+  --footer-link-opacity: rgba(235,240,249,0.3);
+  --divider-color: rgba(35, 37, 54, 0.12);
+
+  /* Typography Sizes */
+  --font-h1: 56px;
+  --font-h2: 48px;
+  --font-h3: 28px;
+  --font-h4: 20px;
+  --font-h5: 14px;
+  --font-h6: 12px;
+  --font-home-heading: 64px;
+  --font-paragraph: 18px;
+  --font-paragraph-small: 14px;
+  --font-download: 36px;
+  --font-button: 16px;
+  --font-button-large: 24px;
+
+  /* Spacing */
+  --spacing-lg: 32px;
+  --spacing-md: 16px;
+  --spacing-sm: 12px;
+  --spacing-xs: 10px;
+
+  /* Borders and Radiuses */
+  --button-radius: 4px;
+  --card-radius: 20px;
+  
+  /* Layout */
+  --container-max-width: 1280px;
+  --container-padding: 110px;
+  --container-padding-mobile: 32px;
+  
+  /* Z-indices */
+  --z-navbar: 100;
+  --z-modal: 1000;
+}

@@ -1,0 +1,48 @@
+/* Layout utilities */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+/* Spacing utilities */
+.mt-lg { margin-top: var(--spacing-lg); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+.pt-lg { padding-top: var(--spacing-lg); }
+.pb-lg { padding-bottom: var(--spacing-lg); }
+.mt-md { margin-top: var(--spacing-md); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.pt-md { padding-top: var(--spacing-md); }
+.pb-md { padding-bottom: var(--spacing-md); }
+
+/* Divider */
+.divider {
+  border: 1px solid var(--divider-color);
+}
+
+/* Color utilities */
+.color-primary-green { background: var(--primary-green); }
+.color-green-light { background: var(--green-light); }
+.color-green-tertiary { background: var(--green-tertiary); }
+.color-black { background: var(--black); }
+.color-primary-text { background: var(--primary-text); }
+.color-secondary-text { background: var(--secondary-text); }
+.color-off-white { background: var(--off-white); }
+.color-border { background: var(--border); }
+.color-white { background: var(--white); }
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .about, .events-row, .projects-row, .next-events-row, .footer {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .about-right, .about-left, .event-card, .project-card, .next-event-card {
+    min-width: 0;
+    width: 100%;
+  }
+  .navbar {
+    padding: 18px var(--container-padding-mobile);
+  }
+  .footer {
+    padding: 64px var(--container-padding-mobile);
+  }
+}
