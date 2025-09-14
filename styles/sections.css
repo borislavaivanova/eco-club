@@ -411,29 +411,89 @@
 }
 
 /* About Hero Section */
-.about-hero {
-  height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../static/free_forest_photo.jpg');
-  background-size: cover;
-  background-position: center;
-  margin-top: 87px;
-}
-
-.about-hero .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+.hero-about {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1270px;
+  margin: 150px auto 0 auto;
+  gap: 40px;
+}
+.hero-about-left {
+  flex: 1;
+  min-width: 400px;
+}
+.section-label {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1D2130;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.hero-about-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #1D2130;
+  margin-bottom: 24px;
+}
+.hero-about-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #525560;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.hero-about-actions {
+  display: flex;
+  gap: 16px;
+}
+.hero-about-right {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
 }
 
-.about-hero .hero-title {
-  max-width: 800px;
-  font-size: 2.5rem;
-  line-height: 1.4;
-  color: var(--white);
+.hero-about-right h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.hero-about-video {
+  position: relative;
+  width: 480px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.video-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.play-icon {
+  width: 21px;
+  height: 24px;
+  border-radius: 1px;
+  display: block;
 }
 
 /* Activities Section */

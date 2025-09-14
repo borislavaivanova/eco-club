@@ -1,42 +1,20 @@
 {
   "mainNav": [
-    { "title": "Начало", "href": "#home" },
-    { "title": "За нас", "href": "#about" },
-    { "title": "Галерия", "href": "#gallery" },
-    { "title": "Нашата мисия", "href": "#mission" },
-    { "title": "Контакти", "href": "#contact" }
+    { "title": "Начало", "href": "https://borislavaivanova.github.io/eco-club/" },
+    { "title": "За нас", "href": "https://borislavaivanova.github.io/eco-club/about_us.html" },
+    { "title": "Галерия", "href": "https://borislavaivanova.github.io/eco-club/media.html" },
+    { "title": "Нашата мисия", "href": "https://borislavaivanova.github.io/eco-club/mission.html" },
+    { "title": "Контакти", "href": "https://borislavaivanova.github.io/eco-club/contact_us.html" }
   ],
   "footerNav": {
     "home": {
       "title": "Home",
       "links": [
-        { "title": "About us", "href": "#about" },
-        { "title": "Team", "href": "#team" },
-        { "title": "Projects", "href": "#projects" },
-        { "title": "Events", "href": "#events" },
-        { "title": "What we do", "href": "#what-we-do" },
-        { "title": "Donate", "href": "#donate" },
-        { "title": "Contact", "href": "#contact" },
-        { "title": "Blog", "href": "#blog" }
-      ]
-    },
-    "more": {
-      "title": "More",
-      "links": [
-        { "title": "Projects", "href": "#projects" },
-        { "title": "Events", "href": "#events" },
-        { "title": "Donate", "href": "#donate" },
-        { "title": "Contact", "href": "#contact" },
-        { "title": "Blog", "href": "#blog" }
-      ]
-    },
-    "connect": {
-      "title": "Connect",
-      "links": [
-        { "title": "Facebook", "href": "#facebook" },
-        { "title": "Instagram", "href": "#instagram" },
-        { "title": "Twitter", "href": "#twitter" },
-        { "title": "Linkedin", "href": "#linkedin" }
+        { "title": "Начало", "href": "https://borislavaivanova.github.io/eco-club/" },
+        { "title": "За нас", "href": "https://borislavaivanova.github.io/eco-club/about_us.html" },
+        { "title": "Галерия", "href": "https://borislavaivanova.github.io/eco-club/media.html" },
+        { "title": "Нашата мисия", "href": "https://borislavaivanova.github.io/eco-club/mission.html" },
+        { "title": "Контакти", "href": "https://borislavaivanova.github.io/eco-club/contact_us.html" }
       ]
     }
   }
