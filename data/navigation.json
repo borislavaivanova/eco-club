@@ -3,17 +3,14 @@
     { "title": "Начало", "href": "https://borislavaivanova.github.io/eco-club/" },
     { "title": "За нас", "href": "https://borislavaivanova.github.io/eco-club/about_us.html" },
     { "title": "Галерия", "href": "https://borislavaivanova.github.io/eco-club/media.html" },
-    { "title": "Нашата мисия", "href": "https://borislavaivanova.github.io/eco-club/mission.html" },
     { "title": "Контакти", "href": "https://borislavaivanova.github.io/eco-club/contact_us.html" }
   ],
   "footerNav": {
     "home": {
-      "title": "Home",
       "links": [
         { "title": "Начало", "href": "https://borislavaivanova.github.io/eco-club/" },
         { "title": "За нас", "href": "https://borislavaivanova.github.io/eco-club/about_us.html" },
         { "title": "Галерия", "href": "https://borislavaivanova.github.io/eco-club/media.html" },
-        { "title": "Нашата мисия", "href": "https://borislavaivanova.github.io/eco-club/mission.html" },
         { "title": "Контакти", "href": "https://borislavaivanova.github.io/eco-club/contact_us.html" }
       ]
     }

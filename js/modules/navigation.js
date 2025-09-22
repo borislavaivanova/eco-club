@@ -23,9 +23,8 @@ async function loadFooterNav() {
         const footerLinks = document.querySelector('.footer-links');
         if (!footerLinks) return;
 
-        footerLinks.innerHTML = Object.entries(data.footerNav).map(([key, section]) => `
+        footerLinks.innerHTML = Object.entries(data.footerNav).map(([, section]) => `
             <div class="footer-group">
-                <span class="footer-group-title">${section.title}</span>
                 ${section.links.map(link => `
                     <a href="${link.href}">${link.title}</a>
                 `).join('')}

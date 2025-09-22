@@ -29,6 +29,11 @@
 .color-border { background: var(--border); }
 .color-white { background: var(--white); }
 
+.colored-bg {
+  background-color: var(--green-light);
+  padding-block: 40px;
+}
+
 /* Responsive adjustments */
 @media (max-width: 1200px) {
   .about, .events-row, .projects-row, .next-events-row, .footer {

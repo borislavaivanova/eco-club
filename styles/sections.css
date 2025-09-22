@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 87px;
   background: var(--white);
   border-bottom: 1px solid var(--border-dark);
@@ -565,6 +565,28 @@
 
 .mission-actions {
   margin-top: 30px;
+}
+
+.carousel-section {
+    margin-top: 160px;
+    padding: 80px var(--container-padding);
+    background-color: var(--background-light);
+}
+
+.carousel-image {
+    object-fit: cover;
+}
+
+.contant-title {
+    margin-block: 5px;
+    margin-inline: 0;
+}
+
+.map-section {
+    margin-top: 80px;
+    margin-bottom: -120px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Responsive Styles */
